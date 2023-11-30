@@ -21,7 +21,7 @@ function App() {
         <Route path="/create-user" component={CreateUser} />
         <Route path="/edit-user/:id" component={EditUser} />
         <Route path="/profile/:id" component={UserProfile} />
-        <Route path="/edit-profile/:id" component={EditProfile} />
+      <Route path="/edit-profile/:id" component={EditProfile} />
       
     </Router>
   
